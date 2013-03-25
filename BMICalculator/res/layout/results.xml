@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Body Mass Index is:"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/lblBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp"
+        android:textStyle="bold" android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are having:"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:paddingLeft="5dp" android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgBodyType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fadingEdge="horizontal|vertical"
+            android:src="@drawable/male_normalweight" android:fadingEdgeLength="10dp" android:paddingLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/lblBodyType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:layout_gravity="center_vertical" android:paddingLeft="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Did you know?"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginTop="5dp" android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/lblFact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" android:paddingLeft="5dp"/>
+    
+        <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tips:"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginTop="5dp" android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/lblTips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" android:paddingLeft="5dp"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="btnBack_clicked" android:layout_marginTop="5dp" android:layout_marginLeft="5dp"/>
+
+</LinearLayout>

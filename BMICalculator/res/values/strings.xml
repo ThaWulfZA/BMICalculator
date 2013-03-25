@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">BMI Calculator</string>
+    <string name="textinput_width">100dp</string>
+    <string-array name="height_units">
+        <item >cm</item>
+        <item >in</item>
+        <item >ft</item>
+    </string-array>
+    <string-array name="weight_units">
+        <item >kg</item>
+        <item >lbs</item>
+    </string-array>
+    <string-array name="sex">
+        <item >Male</item>
+        <item >Female</item>
+    </string-array>
+    <string name="about">The Body Mass Index(BMI) formula was developed by Belgium statistician Adolphe Quetelet (1796-1874), and was known as the Quetelet Index. BMI is also referred to as \'body mass indicator\'. BMI is an internationally used measure of obesity.</string>
+    <string name="author">This application was developed by Aravind Mohan. Mail to: mohanaravind@gmail.com</string>
+
+</resources>
